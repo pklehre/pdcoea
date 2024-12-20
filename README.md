@@ -3,11 +3,22 @@
 The file ``pdcoea.py`` contains a simple Python implementation of
 Pairwise Dominance Co-Evolutionary Algorithm (PDCoEA).
 
-- Per Kristian Lehre. Runtime Analysis of Competitive Co-evolutionary
-  Algorithms for Maximin Optimisation of a Bilinear Function.
-  Algorithmica 86, 2352--2392 (2024). https://doi.org/10.1007/s00453-024-01218-3
+```
+@article{lehre2024pdcoea,
+  author = {Lehre, Per Kristian},
+  title = {Runtime {Analysis} of {Competitive} {Co}-evolutionary {Algorithms} for {Maximin} {Optimisation} of a {Bilinear} {Function}},
+  year = {2024},
+  doi = {10.1007/s00453-024-01218-3},
+  journal = {Algorithmica},
+  keywords = {Co-evolutionary algorithms, Evolutionary computation, Game theory, Runtime analysis},
+  language = {en},
+  month = apr,
+  url = {https://doi.org/10.1007/s00453-024-01218-3},
+  issn = {1432-0541}
+}
+```
 
-# Empirical Runtime Analysis of PDCoEA on Diagonal
+## Empirical Runtime Analysis of PDCoEA on Diagonal for AAAI2025
 
 The file ``aaai2025.py`` contains Python code for a forthcoming
 AAAI2025 paper. It produces a heatmap which shows the runtime of
